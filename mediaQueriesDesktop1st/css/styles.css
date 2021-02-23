@@ -51,3 +51,35 @@ a {
 p {
     width: 500px;
 }
+
+@media only screen and (min-width: 350px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 530px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .main{
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .main{
+    display: flex;
+    flex-direction: row;
+    }
+}

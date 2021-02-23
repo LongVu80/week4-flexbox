@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkturquoise;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+div{
+    background-color: burlywood;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+img{
+    width: 100px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 1em;
+}
+.altBox{
+    display: flex;
+    flex-direction: column-reverse;
+}

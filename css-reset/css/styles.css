@@ -1,3 +1,30 @@
+header{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color: burlywood;
+    padding-left: 50px;
+}
+nav{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
 img {
     width: 100px;
+}
+span{
+    display: block;
+    color:darkslategray;
 }
